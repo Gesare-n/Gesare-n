@@ -59,18 +59,9 @@ CURIOSITY             ██████████  MAX
 <summary><b>🌱 KILIMO 360</b> — low-cost IoT smart irrigation for urban farming</summary>
 <br/>
 
-**Loot:** C++ · Arduino · Firebase · CAD<br/>
+**Loot:** C++ · ESP32 · Arduino · Firebase · CAD<br/>
 **Why it matters:** sensors + a live dashboard so crops get watered only when they need it.<br/>
 ▶️ [Enter the dungeon](https://github.com/Gesare-n/kilimo-360-smart-irrigation)
-</details>
-
-<details>
-<summary><b>🛡️ EcoGuard</b> — Raspberry Pi sound-based environmental monitor</summary>
-<br/>
-
-**Loot:** Python · Raspberry Pi · ML · Telegram bot · 3D printing<br/>
-**Why it matters:** listens to its surroundings, detects sounds with ML and sends real-time Telegram alerts.<br/>
-▶️ [Enter the dungeon](https://github.com/Gesare-n/ecoguard)
 </details>
 
 <details>
@@ -86,8 +77,8 @@ CURIOSITY             ██████████  MAX
 <summary><b>📡 IoT Data Ingestion Microservice</b> — a backend that eats sensor telemetry</summary>
 <br/>
 
-**Loot:** C#<br/>
-**Why it matters:** the plumbing that gets device data from the field into storage.<br/>
+**Loot:** C# · .NET · MQTT<br/>
+**Why it matters:** the plumbing that gets device data from the field to a live dashboard — publisher → ingestion service → UI.<br/>
 ▶️ [Enter the dungeon](https://github.com/Gesare-n/IoT-Data-Ingestion-Microservice)
 </details>
 
