@@ -6,6 +6,8 @@ on:
   workflow_dispatch:
   push:
     branches: [main]
+    paths:
+      - ".github/workflows/snake.yml"
 
 permissions:
   contents: write
@@ -19,8 +21,8 @@ jobs:
         with:
           github_user_name: ${{ github.repository_owner }}
           outputs: |
-            dist/github-snake.svg
-            dist/github-snake-dark.svg?palette=github-dark
+            dist/github-snake.svg?palette=github-dark&color_snake=#ECEAE4&color_dots=#161618,#2f2f33,#5a5a60,#9a9aa0,#ECEAE4
+            dist/github-snake-dark.svg?palette=github-dark&color_snake=#ECEAE4&color_dots=#161618,#2f2f33,#5a5a60,#9a9aa0,#ECEAE4
 
       - uses: crazy-max/ghaction-github-pages@v4
         with:
