@@ -56,10 +56,15 @@
 </p>
 
 <img src="assets/sec-07.svg" width="100%" alt="07 — Skill levels"/>
+<img src="assets/radar.svg" width="100%" alt="Capability radar chart by domain and a donut chart of featured projects by category"/>
 <img src="assets/skills.svg" width="100%" alt="Self-assessed skill levels across hardware, robotics, software and AI"/>
 
 <img src="assets/sec-08.svg" width="100%" alt="08 — Contributions"/>
-<img src="assets/stats.svg" width="100%" alt="Contributions in the last 12 months, streaks and top languages"/>
+<img src="assets/stats.svg" width="100%" alt="Contributions in the last 12 months: headline numbers, contribution-type donut chart and weekly line graph"/>
+<p>
+<img src="assets/langs.svg" width="49%" alt="Donut chart of languages by share of code"/>
+<img src="assets/weekday.svg" width="49%" alt="Bar chart of contributions by weekday"/>
+</p>
 <img src="https://raw.githubusercontent.com/Gesare-n/Gesare-n/output/github-snake-dark.svg" width="100%" alt="Snake eating my contribution graph"/>
 
 <br/>
